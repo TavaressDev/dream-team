@@ -21,14 +21,17 @@ Este projeto é uma aplicação React interativa que permite aos usuários monta
 
 ## 🚀 Como Executar  
 
-```1. Clone o repositório:  
+1. Clone o repositório:
+```
 git clone https://github.com/TavaressDev/dream-team.git
 ```
 
-```2. Instale as dependências:
+2. Instale as dependências:
+```
 npm install
 ```
-```3. Inicie o servidor de desenvolvimento:
+3. Inicie o servidor de desenvolvimento:
+```
 npm run dev
 ```
 
