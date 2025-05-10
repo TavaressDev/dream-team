@@ -1,0 +1,98 @@
+.formationOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    padding: 10% 0;
+    gap: 130px;
+}
+
+.attackLine, .midfieldLine, .defenseLine {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.attackLine {
+    margin-top: 2%;
+    gap: 15%;
+}
+
+.midfieldLine {
+    gap: 15%;
+}
+
+.defenseLine {
+    width: 100%;
+    gap:15%;
+    margin-bottom: 5rem;
+   
+}
+.player {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: transform 0.2s;
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    pointer-events: auto; 
+}
+
+.player:hover {
+    transform: translateY(-10px);
+}
+
+.emptyPlayer {
+    background-color: green;
+    font-size: 4rem
+}
+
+.goalkeeper {
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}   
+
+@media screen and (max-width: 768px){
+    .player{
+        width: 50px;
+        height: 50px;
+        font-size: 2rem;
+    }
+    .midfieldLine{
+        gap: 15%;
+    }
+
+    .defenseLine{
+        gap: 15%;
+    }
+}
+
+
+@media screen and (max-width: 480px){
+    .player{
+        width: 40px;
+        height: 40px;
+        font-size: 1.5rem;
+    }
+
+    .midfieldLine{
+        gap: 15%;
+    }
+    .defenseLine{
+        gap: 12%;
+    }
+}

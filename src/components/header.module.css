@@ -1,0 +1,18 @@
+.logo {
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: #303034;   
+    padding: 1rem;
+    font-family: "Orbitron", sans-serif;
+}
+h1 {
+    transition: transform 0.3s ease-in-out;
+    text-align: center;
+}
+
+.logo h1:hover{
+    transform: scale(1.2, 1.2);
+}
