@@ -1,12 +1,36 @@
-# React + Vite
+# Dream Team ⚽🏆  
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é uma aplicação React interativa que permite aos usuários montar seu time dos sonhos com os 11 maiores jogadores de futebol da história, com suporte a múltiplos idiomas.  
 
-Currently, two official plugins are available:
+## ✨ Funcionalidades  
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌍 **Seleção de idioma** entre Português e Inglês  
+- ⚽ **11 posições interativas** para montar sua escalação perfeita  
+- 🔍 **Busca inteligente** de jogadores por nome  
+- 📺 **Integração com YouTube** - abre vídeos dos jogadores com um clique  
+- 📊 **Modal de resultados** com formação tática completa  
+- 🎨 **Design responsivo** que se adapta a qualquer dispositivo  
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologias Utilizadas  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js** - Biblioteca principal para construção da UI  
+- **Vite** - Ferramenta de build e desenvolvimento  
+- **React Router** - Navegação entre páginas  
+- **i18next** - Internacionalização (pt/en)  
+
+
+## 🚀 Como Executar  
+
+```1. Clone o repositório:  
+git clone https://github.com/TavaressDev/dream-team.git
+```
+
+```2. Instale as dependências:
+npm install
+```
+```3. Inicie o servidor de desenvolvimento:
+npm run dev
+```
+
+4. Acesse no navegador o localhost gerado no seu terminal
+
