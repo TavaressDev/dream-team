@@ -1,7 +1,7 @@
 import styles from './ModalResults.module.css';
 import { useTranslation } from 'react-i18next';
 
-export function ModalResults({ isOpen, players }) {
+export function ModalResults({ isOpen, players, onClose, onRestart }) {
     const { t } = useTranslation();
     
     if (!isOpen) return null;
@@ -11,7 +11,8 @@ export function ModalResults({ isOpen, players }) {
     };
 
     const handleRestart = () => {
-        window.location.reload();
+        onRestart(); 
+        onClose(); 
     };
 
     const positionOrder = [

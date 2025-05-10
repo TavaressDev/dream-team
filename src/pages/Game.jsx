@@ -54,6 +54,12 @@ export function Game() {
         setIsModalOpen(false);
     };
 
+    const handleRestartGame = () => {
+        setPlayers({}); 
+        setResultsModalOpen(false); 
+        setModalInstructionsOpen(true); 
+    };
+
     return (
         <div className={styles.gameContainer}>
             <Header className={styles.headerCustom} />
@@ -90,6 +96,7 @@ export function Game() {
                 isOpen={isResultsModalOpen} 
                 players={players} 
                 onClose={() => setResultsModalOpen(false)}
+                onRestart={handleRestartGame}
             />
         </div>
     );
