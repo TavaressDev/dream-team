@@ -2,6 +2,10 @@
 
 Este projeto é uma aplicação React interativa que permite aos usuários montar seu time dos sonhos com os 11 maiores jogadores de futebol da história, com suporte a múltiplos idiomas.  
 
+
+https://github.com/user-attachments/assets/65da263d-ea41-4ff1-9b75-324c40b37b22
+
+
 ## ✨ Funcionalidades  
 
 - 🌍 **Seleção de idioma** entre Português e Inglês  
