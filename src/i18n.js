@@ -27,7 +27,7 @@ const resources = {
       },
       "instructions": {
         "welcome": "Welcome to Dream Team",
-        "description": "Select 11 football players you consider the greatest in history"
+        "description": "select 11 football players that you consider the greatest in history"
       },
       
       "positions": {
