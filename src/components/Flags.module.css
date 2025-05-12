@@ -32,9 +32,7 @@
 }
 
 .brazilFlag:hover img,
-.usaFlag:hover img,
-.brazilFlag:hover h1,
-.usaFlag:hover h1 {
+.usaFlag:hover img   {
     background: black;
     opacity: 60%;
     cursor: pointer;
