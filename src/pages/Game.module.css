@@ -57,3 +57,9 @@
   .formModalContainer button:hover{
     background-color: #219653;  }
 
+    @media screen and (orientation: landscape) {
+      .fieldWrapper {
+          height: 90vh;
+          max-height: 100vw;
+      }
+  }

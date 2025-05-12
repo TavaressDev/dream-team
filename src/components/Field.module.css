@@ -2,7 +2,7 @@
     width: 100%;
     max-width: 800px;
     height: 85vh;
-    border: 1px solid white;
+    border: 3px solid white;
     display: flex;
     justify-content: end;
     align-items: center;
@@ -38,7 +38,7 @@
 
 .areaContainer {
     width: 50%;
-    border: 2px solid white;
+    border: 1px solid white;
     height: 25%;
     display: flex;
     justify-content: center;
@@ -46,7 +46,7 @@
 }
 
 .areaContainer2 {
-    position: relative; /* Necessário para posicionamento absoluto do goleiro */
+    position: relative; 
     width: 50%;
     height: 50%;
     border: 1px solid white;
@@ -60,7 +60,7 @@
 .circleContainer {
     width: 14%;
     height: 4.5%;
-    border: 2px solid white;
+    border: 1px solid white;
     border-radius: 30px 30px 0 0;
     display: flex;
     justify-content: center;
@@ -77,5 +77,12 @@
 
     .playerCounter{
         padding: 0;
+    }
+}
+
+@media screen and (orientation: landscape) {
+    .fieldContainer {
+        height: 90vh;
+        max-height: 100vw; 
     }
 }
