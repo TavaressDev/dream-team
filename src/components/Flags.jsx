@@ -12,7 +12,7 @@ export function Flags() {
   return (
     <div className={styles.flagsWrapper}>
       <h2 className={styles.textPickLanguage}>
-        Escolhe o seu idioma/Pick your language
+        Escolha o seu idioma/Pick your language
       </h2>
 
       <div className={styles.flagsContainer}>
